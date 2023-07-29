@@ -7,10 +7,10 @@ header section {
   display: flex;
   flex-direction: row;
   align-items: center;
-  list-style: none;
 }
 
 .menu-item a {
   margin: 0 20px;
   color: #3399cc;
+  font-weight: 600;
 }
