@@ -17,7 +17,7 @@
 @media (max-width: 950px) {
   body {
     background-position: left top;
-    background-color: #b1f4ff;
+    background-color: $color-quaternary;
   }
 
   .container {
@@ -64,7 +64,7 @@
   }
 
   .menu {
-    background: #fff;
+    background: $color-white;
     border-radius: 20px;
     width: 80%;
     padding: 10px 0 30px 0;
