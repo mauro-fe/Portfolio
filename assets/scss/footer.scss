@@ -1,7 +1,20 @@
-footer ul li {
-  margin: 0 40px 0 0px;
-}
-
-footer ul li a img {
-  width: $social-media-icons;
+footer {
+  //ul
+  ul{
+    //li
+    li{
+      margin: 0 40px 0 0px;
+      //a
+      a {
+        //img
+        img {
+         width: $social-media-icons;
+        }
+         //End img
+      }
+      //End a
+    }
+    //End li
+  }
+  //End ul
 }
