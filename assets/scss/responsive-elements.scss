@@ -9,15 +9,25 @@
     width: 850px;
   }
 
-  .sobre-web-design figcaption img {
-    width: 600px;
+  //Sobre
+  .sobre-web-design {
+    //figcaption
+    figcaption {
+      //Img
+      img {
+        width: 600px;
+      }
+      //End Img
+    }
+    //End figcaption
   }
+  //End Sobre
 }
 
 @media (max-width: 950px) {
   body {
     background-position: left top;
-    background-color: #b1f4ff;
+    background-color: $color-quaternary;
   }
 
   .container {
@@ -26,26 +36,42 @@
 
   .row {
     flex-direction: column;
-
   }
 
   .menu-lista {
     margin-top: 30px;
   }
 
-  .sobre-web-design article {
-    width: 80%;
+  //Sobre
+  .sobre-web-design {
+    //article
+    article {
+      width: 80%;
+    }
+    //End article
+    //figcaption
+    figcaption {
+      //Img
+      img {
+        width: 100%;
+        margin-top: 20px;
+      }
+      //End Img
+    }
+    //End figcaption
   }
+  //End Sobre
 
-  .sobre-web-design figcaption img {
-    width: 100%;
-    margin-top: 20px;
+  //Footer
+  footer {
+    //Row
+    .row {
+      flex-direction: row;
+      justify-content: center;
+    }
+    //End Row
   }
-
-  footer .row {
-    flex-direction: row;
-    justify-content: center;
-  }
+  //Footer
 }
 
 @media (max-width: 650px) {
@@ -64,7 +90,7 @@
   }
 
   .menu {
-    background: #fff;
+    background: $color-white;
     border-radius: 20px;
     width: 80%;
     padding: 10px 0 30px 0;
